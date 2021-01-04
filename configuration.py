@@ -1,7 +1,7 @@
 class ConfigClass:
     def __init__(self):
         # link to a zip file in google drive with your pretrained model
-        self._model_url = None
+        self._model_url = "https://drive.google.com/file/d/1rUyw0Teh2kKRtYJahk8bvCAya0PzvlQR/view"
         # False/True flag indicating whether the testing system will download 
         # and overwrite the existing model files. In other words, keep this as 
         # False until you update the model, submit with True to download 
